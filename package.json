@@ -1,0 +1,32 @@
+{
+  "name": "shoppinpal-backend-lb",
+  "version": "1.0.0",
+  "dependencies": {
+    "compression": "^1.0.3",
+    "debug": "^2.1.0",
+    "ejs": "~0.8.5",
+    "errorhandler": "^1.1.1",
+    "form-data": "~0.1.4",
+    "loopback": "^2.8.0",
+    "loopback-boot": "^2.4.0",
+    "loopback-datasource-juggler": "^2.7.0",
+    "newrelic": "~1.6.0",
+    "nconf": "^0.7.1",
+    "request": "^2.51.0",
+    "requestify": "~0.1.16",
+    "serve-favicon": "^2.0.1",
+    "q": "^1.1.2",
+    "winston": "^0.8.3",
+    "underscore": "^1.7.0",
+    "bluebird": "^2.4.0",
+    "request-promise": "^0.3.2",
+    "vend-nodejs-sdk": "git://github.com/shoppinpal/vend-nodejs-sdk"
+  },
+  "optionalDependencies": {
+    "loopback-explorer": "^1.1.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "main": "server/server.js"
+}

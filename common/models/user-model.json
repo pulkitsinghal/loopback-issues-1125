@@ -1,0 +1,29 @@
+{
+  "name": "UserModel",
+  "base": "User",
+  "idInjection": true,
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "globalConfigModels": {
+      "type": "hasOne",
+      "model": "GlobalConfigModel",
+      "foreignKey": "userModelToGlobalConfigModelId"
+    }
+  },
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$owner",
+      "permission": "ALLOW"
+    },
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "admin",
+      "permission": "ALLOW"
+    }
+  ],
+  "methods": []
+}
